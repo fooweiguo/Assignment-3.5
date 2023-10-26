@@ -15,8 +15,16 @@ and then type localhost:8080 in the browser. You should be able to see a
 website. 
 
 ## Creating (private) ECR on console
-
+First on the AWS console, on the search bar, type ECR or Elastic Container
+Registry, which will bring you to a list of repositories. Search for the orange
+button that says "Create repository" and click on it. It will bring you to the
+following page:
+ 
 ![image](ECR-create.png)
+
+For our current purpose, we will set this repository as private. Then we fill in
+the name of the repository, which in this case will be "fooweiguoecr" but it can
+be any name, and then click "Create repository" at the bottom of the page. 
 
 ## Creating Docker Image
 Next, we are going to containerise the hello-node application. To do this, we
