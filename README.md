@@ -16,6 +16,8 @@ website.
 
 ## Creating (private) ECR on console
 
+![image](ECR-create.png)
+
 ## Creating Docker Image
 Next, we are going to containerise the hello-node application. To do this, we
 first run the command "docker build -t <image name> .". But since
