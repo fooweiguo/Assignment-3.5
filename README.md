@@ -44,7 +44,7 @@ To push the image into AWS ECR using AWS CLI, run the following command:
 
 aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 255945442255.dkr.ecr.us-east-1.amazonaws.com
 
-This will retrieve authentication tocken and authenticate your Docker client to
+This will retrieve authentication token and authenticate your Docker client to
 your registry. If you succeed, you should see "Login Succeeded". 
 
 Afterwards, tag your image so that you can push the image to this repository:
